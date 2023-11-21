@@ -90,13 +90,13 @@
 /* Responsive Styles */
 @media screen and (max-width: 992px) {
   .portfolio .row {
-    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    grid-template-columns: repeat(1, 600px);
     row-gap: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
   .portfolio .row {
-    grid-template-columns: repeat(1, 480px);
+    grid-template-columns: repeat(1, 350px);
   }
  
 }

@@ -79,7 +79,6 @@
 
 .home__description {
   max-width: 400px;
-  height: 130px;
   overflow: hidden;
   border-right: 2px solid transparent;
   margin-bottom: var(--mb-3);
