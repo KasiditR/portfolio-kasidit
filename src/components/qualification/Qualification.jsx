@@ -58,7 +58,7 @@ const QualificationContent = ({ isActive, content }) => (
 );
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(0);
+  const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
