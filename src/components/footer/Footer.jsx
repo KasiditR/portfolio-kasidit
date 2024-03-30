@@ -30,6 +30,7 @@ const Footer = () => {
             href="https://www.instagram.com/kasidit.r/?hl=en"
             className="home__social-icon"
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             <i class="bx bxl-instagram"></i>
           </a>
@@ -37,6 +38,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/kasidit-ruangmunjit-649697176/"
             className="home__social-icon"
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
@@ -44,6 +46,7 @@ const Footer = () => {
             href="https://github.com/KasiditR"
             className="home__social-icon"
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             <i class="bx bxl-github"></i>
           </a>
