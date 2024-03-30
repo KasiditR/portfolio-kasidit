@@ -58,7 +58,6 @@ const Portfolio = () => {
         "Implement UI using NGUI",
         "Implement In App Purchase",
       ],
-      websiteUrl: "https://play.google.com/store/apps/details?id=com.glory.ragnarok",
       buttonOne: "Google",
       buttonOneUrl: "https://play.google.com/store/apps/details?id=com.glory.ragnarok",
       buttonTwo: "iOS",
@@ -76,7 +75,6 @@ const Portfolio = () => {
         "Implement Shop UI and API",
         "Launch Game (Google Play Store, Apple Store)"
       ],
-      websiteUrl: "https://play.google.com/store/apps/details?id=com.ichigames.scrapdown1",
       buttonOne: "Google",
       buttonOneUrl: "https://play.google.com/store/apps/details?id=com.ichigames.scrapdown1",
       buttonTwo: "iOS",
