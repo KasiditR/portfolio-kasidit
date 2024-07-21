@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Row } from "react-bootstrap";
-import project1 from "../../assets/work1.png";
+import project1 from "../../assets/work6.jpg";
 import project2 from "../../assets/work2.png";
 import project3 from "../../assets/work3.png";
 import project4 from "../../assets/work4.png";
@@ -11,16 +11,18 @@ import "./portfolio.css";
 const Portfolio = () => {
   const projects = [
     {
-      title: "SIA",
-      description: "SIA is arena game you need a survive for 1st in leaderboards. (Moblie Game)",
+      title: "Duriano",
+      description: "Duriano is an exhilarating 3D top-down action rogue-lite game that plunges you into the mythical world of Norse mythology. Take on the role of a heroic durian, wielding powerful weapons and divine abilities to vanquish the gods of Asgard.",
       imgUrl: project1,
       doInProjects : [
-        "Implement Login using Firebase (Login Email/Password)",
-        "Implement LeaderBoard",
+        "Release Steam",
+        "Implement Core GamePlay",
+        "Implement Enemy Logic",
+        "Implement UI",
       ],
-      websiteUrl: "https://janjao937.itch.io/sia",
+      websiteUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
       buttonOne: "See More",
-      buttonOneUrl: "https://janjao937.itch.io/sia",
+      buttonOneUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
     },
     {
       title: "Quartz Core",
@@ -73,7 +75,7 @@ const Portfolio = () => {
         "Implement Enemy Monster",
         "Implement Item Bully GamePlay",
         "Implement Shop UI and API",
-        "Launch Game (Google Play Store, Apple Store)"
+        "Release Game (Google Play Store, Apple Store)"
       ],
       buttonOne: "Google",
       buttonOneUrl: "https://play.google.com/store/apps/details?id=com.ichigames.scrapdown1",

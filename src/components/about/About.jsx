@@ -44,7 +44,7 @@ const About = () => {
             </ul>
             <div className="button-wrapper">
               <a
-                download="Your_Resume"
+                download="Resume_Kasidit"
                 href={CV}
                 className="button button--flex"
               >
