@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 
-const ProjectCard = ({ title, description,doInProjects, imgUrl, websiteUrl, buttonOne, buttonOneUrl, buttonTwo, buttonTwoUrl }) => {
+const ProjectCard = ({ title, description,doInProjects, imgUrl, websiteUrl, buttonOne, buttonOneUrl, buttonTwo, buttonTwoUrl, buttonGitHubUrl }) => {
   return (
     <Col sm={6} md={4}>
       <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
@@ -25,6 +25,11 @@ const ProjectCard = ({ title, description,doInProjects, imgUrl, websiteUrl, butt
             {buttonTwo && (
               <a href={buttonTwoUrl} target="_blank" rel="noopener noreferrer">
                 <button>{buttonTwo}</button>
+              </a>
+            )}
+            {buttonGitHubUrl && (
+              <a href={buttonGitHubUrl} target="_blank" rel="noopener noreferrer">
+                <button>GitHub</button>
               </a>
             )}
             </div>

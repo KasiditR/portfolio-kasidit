@@ -21,7 +21,7 @@ const Portfolio = () => {
         "Implement UI",
       ],
       websiteUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
-      buttonOne: "See More",
+      buttonOne: "Steam Store page",
       buttonOneUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
     },
     {
@@ -39,6 +39,7 @@ const Portfolio = () => {
       websiteUrl: "https://kasiditr.itch.io/quarzt-core",
       buttonOne: "See More",
       buttonOneUrl: "https://kasiditr.itch.io/quarzt-core",
+      buttonGitHubUrl: "https://github.com/KasiditR/QuartzCore",
     },
     {
       title: "Innovation",
@@ -50,7 +51,8 @@ const Portfolio = () => {
       ],
       websiteUrl: "https://innovation01-c8042.web.app/",
       buttonOne: "Play",
-      buttonOneUrl: "https://kasiditr.itch.io/quarzt-core",
+      buttonOneUrl: "https://innovation01-c8042.web.app/",
+      buttonGitHubUrl: "https://github.com/KasiditR/JD_Minigame_Innovation",
     },
     {
       title: "Glory of Ragnarok",
