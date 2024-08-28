@@ -7,6 +7,7 @@ const Social = () => {
         href="https://www.instagram.com/kasidit.r/?hl=en"
         className="home__social-icon"
         target={"_blank"}
+        rel="noreferrer"
       >
         <i class="uil uil-instagram"></i>
       </a>
@@ -14,6 +15,7 @@ const Social = () => {
         href="https://www.linkedin.com/in/kasidit-ruangmunjit-649697176/"
         className="home__social-icon"
         target={"_blank"}
+        rel="noreferrer"
       >
         <i class="uil uil-linkedin"></i>
       </a>
@@ -21,6 +23,7 @@ const Social = () => {
         href="https://github.com/KasiditR"
         className="home__social-icon"
         target={"_blank"}
+        rel="noreferrer"
       >
         <i class="uil uil-github-alt"></i>
       </a>

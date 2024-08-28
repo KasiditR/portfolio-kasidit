@@ -1,14 +1,14 @@
 import "./App.css";
-import Header from "./components/header/Header";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-// import Services from "./components/services/Services";
-import Qualification from "./components/qualification/Qualification";
-import Contact from "./contact/Contact";
-import Footer from "./components/footer/Footer";
-import ScrollUp from "./components/scrollup/ScrollUp";
-import Portfolio from "./components/portfolio/Portfolio";
+import Header from "./components/header";
+import Home from "./components/home";
+import About from "./components/about";
+import Skills from "./components/skills";
+import Qualification from "./components/qualification";
+import Contact from "./contact";
+import Footer from "./components/footer";
+import ScrollUp from "./components/scrollup";
+import Portfolio from "./components/portfolio";
+
 function App() {
   return (
     <>
@@ -18,7 +18,6 @@ function App() {
         <About />
         <Skills />
         <Portfolio />
-        {/* <Services /> */}
         <Qualification />
         <Contact />
       </main>
