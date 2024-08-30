@@ -30,10 +30,10 @@ const Portfolio = () => {
       doInProjects : [
         "Implement Core GamePlay",
         "Implement UI",
+        "Implement Save and load",
         "Implement Inventory System",
         "Implement Map Generate using Dungeon Architect Tools",
-        "Shader Dissolve Effect",
-        "Shader Ripple Effect",
+        "Shader Graph Effect URP",
       ],
       imgUrl: project2,
       websiteUrl: "https://kasiditr.itch.io/quarzt-core",
