@@ -15,9 +15,10 @@ const Portfolio = () => {
       description: "Duriano is an exhilarating 3D top-down action rogue-lite game that plunges you into the mythical world of Norse mythology. Take on the role of a heroic durian, wielding powerful weapons and divine abilities to vanquish the gods of Asgard.",
       imgUrl: project1,
       doInProjects : [
-        "Release Steam",
-        "Implement Core GamePlay",
+        "Release Game (Steam)",
+        "Implement Core Gameplay",
         "Implement Enemy Logic",
+        "Implement Stat system",
         "Implement UI",
       ],
       websiteUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
@@ -28,7 +29,7 @@ const Portfolio = () => {
       title: "Quartz Core",
       description: "QuartzCore offers a solo journey through procedurally generated maps. As you navigate challenging levels and battle foes, each death restarts your journey, albeit with retained upgrades. It's a third-person shooter featuring intense combat, item collection, and exploration, ensuring thrilling challenges await in every corner. (PC Game)",
       doInProjects : [
-        "Implement Core GamePlay",
+        "Implement Core Gameplay",
         "Implement UI",
         "Implement Save and load",
         "Implement Inventory System",
@@ -46,7 +47,7 @@ const Portfolio = () => {
       description: "​Innovation player need to find all the key value of JD Central to pass the level. (Web Game)",
       imgUrl: project3,
       doInProjects : [
-        "Implement Core GamePlay",
+        "Implement Core Gameplay",
         "Implement UI",
       ],
       websiteUrl: "https://innovation01-c8042.web.app/",
@@ -75,7 +76,7 @@ const Portfolio = () => {
         "Implement In App Purchase",
         "Implement Authentication (Google, Apple)",
         "Implement Enemy Monster",
-        "Implement Item Bully GamePlay",
+        "Implement Item Bully Gameplay",
         "Implement Shop UI and API",
         "Release Game (Google Play Store, Apple Store)"
       ],
