@@ -22,8 +22,13 @@ const Portfolio = () => {
         "Implement UI",
       ],
       websiteUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
-      buttonOne: "Steam Store page",
-      buttonOneUrl: "https://store.steampowered.com/app/3048930/Duriano/?beta=0",
+      buttons: 
+      [
+        {
+          buttonName : "Steam Store page",
+          buttonUrl : "https://store.steampowered.com/app/3048930/Duriano/?beta=0"
+        },
+      ],
     },
     {
       title: "Quartz Core",
@@ -38,9 +43,17 @@ const Portfolio = () => {
       ],
       imgUrl: project2,
       websiteUrl: "https://kasiditr.itch.io/quarzt-core",
-      buttonOne: "See More",
-      buttonOneUrl: "https://kasiditr.itch.io/quarzt-core",
-      buttonGitHubUrl: "https://github.com/KasiditR/QuartzCore",
+      buttons: 
+      [
+        {
+          buttonName : "See More",
+          buttonUrl : "https://kasiditr.itch.io/quarzt-core"
+        },
+        {
+          buttonName : "GitHub",
+          buttonUrl : "https://github.com/KasiditR/QuartzCore"
+        },
+      ],
     },
     {
       title: "Innovation",
@@ -51,9 +64,17 @@ const Portfolio = () => {
         "Implement UI",
       ],
       websiteUrl: "https://innovation01-c8042.web.app/",
-      buttonOne: "Play",
-      buttonOneUrl: "https://innovation01-c8042.web.app/",
-      buttonGitHubUrl: "https://github.com/KasiditR/JD_Minigame_Innovation",
+      buttons: 
+      [
+        {
+          buttonName : "Play",
+          buttonUrl : "https://innovation01-c8042.web.app/"
+        },
+        {
+          buttonName : "GitHub",
+          buttonUrl : "https://github.com/KasiditR/JD_Minigame_Innovation"
+        },
+      ],
     },
     {
       title: "Glory of Ragnarok",
@@ -63,10 +84,17 @@ const Portfolio = () => {
         "Implement UI using NGUI",
         "Implement In App Purchase",
       ],
-      buttonOne: "Google",
-      buttonOneUrl: "https://play.google.com/store/apps/details?id=com.glory.ragnarok",
-      buttonTwo: "iOS",
-      buttonTwoUrl: "https://apps.apple.com/us/app/glory-of-ragnarok/id6449695630",
+      buttons: 
+      [
+        {
+          buttonName : "Google",
+          buttonUrl : "https://play.google.com/store/apps/details?id=com.glory.ragnarok"
+        },
+        {
+          buttonName : "iOS",
+          buttonUrl : "https://apps.apple.com/us/app/glory-of-ragnarok/id6449695630"
+        },
+      ],
     },
     {
       title: "Scrap Down",
@@ -80,10 +108,17 @@ const Portfolio = () => {
         "Implement Shop UI and API",
         "Release Game (Google Play Store, Apple Store)"
       ],
-      buttonOne: "Google",
-      buttonOneUrl: "https://play.google.com/store/apps/details?id=com.ichigames.scrapdown1",
-      buttonTwo: "iOS",
-      buttonTwoUrl: "https://apps.apple.com/th/app/scrapdown/id6476897183",
+      buttons: 
+      [
+        {
+          buttonName : "Google",
+          buttonUrl : "https://play.google.com/store/apps/details?id=com.ichigames.scrapdown1"
+        },
+        {
+          buttonName : "iOS",
+          buttonUrl : "https://apps.apple.com/th/app/scrapdown/id6476897183"
+        },
+      ],
     },
   ];
   return (

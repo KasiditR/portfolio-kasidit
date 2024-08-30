@@ -1,7 +1,14 @@
-import React from 'react';
-import { Col } from 'react-bootstrap';
+import React from "react";
+import { Col } from "react-bootstrap";
 
-const ProjectCard = ({ title, description,doInProjects, imgUrl, websiteUrl, buttonOne, buttonOneUrl, buttonTwo, buttonTwoUrl, buttonGitHubUrl }) => {
+const ProjectCard = ({
+  title,
+  description,
+  doInProjects,
+  imgUrl,
+  websiteUrl,
+  buttons,
+}) => {
   return (
     <Col sm={6} md={4}>
       <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
@@ -12,26 +19,25 @@ const ProjectCard = ({ title, description,doInProjects, imgUrl, websiteUrl, butt
             <span>{description}</span>
             <h3 className="proj_what_i_do__title">What I DO :</h3>
             <ul className="proj_what_i_do__list">
-              {doInProjects && doInProjects.map((task, index) => (
-                <li className="proj_what_i_do__item" key={index}>- {task}</li>
-              ))}
+              {doInProjects &&
+                doInProjects.map((task, index) => (
+                  <li className="proj_what_i_do__item" key={index}>
+                    - {task}
+                  </li>
+                ))}
             </ul>
             <div className="proj_buttons">
-            {buttonOne && (
-              <a href={buttonOneUrl} target="_blank" rel="noopener noreferrer">
-                <button>{buttonOne}</button>
-              </a>
-            )}
-            {buttonTwo && (
-              <a href={buttonTwoUrl} target="_blank" rel="noopener noreferrer">
-                <button>{buttonTwo}</button>
-              </a>
-            )}
-            {buttonGitHubUrl && (
-              <a href={buttonGitHubUrl} target="_blank" rel="noopener noreferrer">
-                <button>GitHub</button>
-              </a>
-            )}
+              {buttons &&
+                buttons.map((button, index) => (
+                  <a
+                    key={index}
+                    href={button.buttonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>{button.buttonName}</button>
+                  </a>
+                ))}
             </div>
           </div>
         </div>
