@@ -64,8 +64,6 @@ const Qualification = () => {
     setToggleState(index);
   };
 
-
-
   const educationContent = [
     {
       title: "Bangkok University",
@@ -80,9 +78,14 @@ const Qualification = () => {
   ];
   const experienceContent = [
     {
+      title: "Game Developer",
+      subtitle: "ANYPLAY DIGITAL co. ltd",
+      duration: "Sep 2024 - present",
+    },
+    {
       title: "Unity Developer",
       subtitle: "Ichigames co. ltd",
-      duration: "2023 - present",
+      duration: "Nov 2023 - Aug 2024",
     },
     {
       title: "Unity Developer",
