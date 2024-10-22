@@ -52,11 +52,14 @@ const Skills = () => {
     { name: "Particle Effect", level: "Basic" },
   ];
 
-  // const backendSkills = [
-  //   { name: "Node.js", level: "Basic" },
-  //   { name: "Go Lang", level: "Basic" },
-  //   { name: "API (CRUD)", level: "Basic" },
-  // ];
+  const backendSkills = [
+    { name: "Node.js", level: "Basic" },
+    { name: "PHP", level: "Basic" },
+    { name: "Go Lang", level: "Basic" },
+    { name: "API (CRUD)", level: "Basic" },
+    { name: "Web Socket", level: "Basic" },
+    { name: "MySQL", level: "Basic" },
+  ];
 
   return (
     <section className="skill section" id="skills">
@@ -66,7 +69,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         <SkillSection title="Unity Skill" skills={unitySkills} />
         {/* <SkillSection title="Frontend Developer" skills={frontendSkills} /> */}
-        {/* <SkillSection title="Backend Skill" skills={backendSkills} /> */}
+        <SkillSection title="Backend Skill" skills={backendSkills} />
       </div>
     </section>
   );
