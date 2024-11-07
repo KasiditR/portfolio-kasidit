@@ -77,11 +77,11 @@ const Qualification = () => {
     },
   ];
   const experienceContent = [
-    {
-      title: "Game Developer",
-      subtitle: "ANYPLAY DIGITAL co. ltd",
-      duration: "Sep 2024 - present",
-    },
+    // {
+    //   title: "Game Developer",
+    //   subtitle: "ANYPLAY DIGITAL co. ltd",
+    //   duration: "Sep 2024 - present",
+    // },
     {
       title: "Unity Developer",
       subtitle: "Ichigames co. ltd",
