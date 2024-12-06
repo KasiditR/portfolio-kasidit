@@ -6,6 +6,7 @@ import project2 from "../../assets/work2.png";
 import project3 from "../../assets/work3.png";
 import project4 from "../../assets/work4.png";
 import project5 from "../../assets/scrapdown.jpg";
+import piggyImage from "../../assets/piggy.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -117,6 +118,30 @@ const Portfolio = () => {
         {
           buttonName : "iOS",
           buttonUrl : "https://apps.apple.com/th/app/scrapdown/id6476897183"
+        },
+      ],
+    },
+    {
+      title: "PIGGY เลี้ยงหมูกับเพื่อน",
+      description: "“Piggy raises pigs with friends” is the most fun mobile version of the pig raising game of 2023 and will keep you entertained. Go with building a farm. Raise and care for your little pig. Ready to bathe and massage a pig?",
+      imgUrl: piggyImage,
+      doInProjects : [
+        "Developed backend APIs (PHP, MySQL) to support seamless data integration and functionality.",
+        "Designed and implemented a web top-up application to enhance user payment workflows.",
+        "Built a Unity Editor tool to automate asset and animation clip creation, improving team efficiency.",
+        "Fixed long-standing bugs, optimized performance, and ensured system stability.",
+        "Contributed to the development of Piggy เลี้ยงหมูกับเพื่อน, a mobile farm simulation game, enhancing user engagement and gameplay experience.",
+        "Release Game (Google Play Store, Apple Store)"
+      ],
+      buttons: 
+      [
+        {
+          buttonName : "Google",
+          buttonUrl : "https://play.google.com/store/apps/details?id=com.anyplaydigital.piggy&pcampaignid=web_share"
+        },
+        {
+          buttonName : "iOS",
+          buttonUrl : "https://apps.apple.com/th/app/piggy-%E0%B9%80%E0%B8%A5-%E0%B8%A2%E0%B8%87%E0%B8%AB%E0%B8%A1-%E0%B8%81-%E0%B8%9A%E0%B9%80%E0%B8%9E-%E0%B8%AD%E0%B8%99/id1572467158?l=th"
         },
       ],
     },

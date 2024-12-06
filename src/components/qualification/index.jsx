@@ -1,5 +1,3 @@
-// Qualification.js
-
 import React, { useState } from "react";
 import "./qualification.css";
 
@@ -77,11 +75,11 @@ const Qualification = () => {
     },
   ];
   const experienceContent = [
-    // {
-    //   title: "Game Developer",
-    //   subtitle: "ANYPLAY DIGITAL co. ltd",
-    //   duration: "Sep 2024 - present",
-    // },
+    {
+      title: "Senior Unity Developer",
+      subtitle: "Anyplay Digital co.,ltd",
+      duration: "Sep 2024 - present",
+    },
     {
       title: "Unity Developer",
       subtitle: "Ichigames co. ltd",
