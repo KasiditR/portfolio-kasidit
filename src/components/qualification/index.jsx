@@ -76,7 +76,7 @@ const Qualification = () => {
   ];
   const experienceContent = [
     {
-      title: "Senior Unity Developer",
+      title: "Game Developer",
       subtitle: "Anyplay Digital co.,ltd",
       duration: "Sep 2024 - Dec 2024",
     },
