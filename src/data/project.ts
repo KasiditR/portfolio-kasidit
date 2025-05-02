@@ -34,21 +34,21 @@ export const projects = [
     path: 'https://play.google.com/store/apps/details?id=com.anyplaydigital.piggy',
   },
   {
-    title: 'Authentication Web',
-    description: 'Authentication Web for practice third-party Frontend React, Backend Go Gin',
-    image: './auth-app.png',
-    path: 'https://react-auth-app-beige.vercel.app',
+    title: 'LookLike AI',
+    description: "LOOKLIKE.AI is a website that will convert you into imagination, whether it's a beautiful princess in a castle, a knight guarding the kingdom, or even a hero from your favorite movie universe.",
+    image: './LOGO-photobooth-01-01.png',
+    path: 'https://looklike.ai',
+  },
+  {
+    title: 'Sathumart',
+    description: 'เลือกซื้อวอลเปเปอร์มงคลเพื่อเสริมโชคลาภและดวงชะตา สามารทำด้วยตัวเองได้ที่ Sathumart',
+    image: './sathu.png',
+    path: 'https://www.sathumart.com/',
   },
   {
     title: 'Netflix Clone',
     description: 'Netflix Clone for practice Web Development Frontend React, Backend Go Gin',
     image: './netflix-clone.png',
     path: 'https://netflix-clone-react-bosskasidits-projects.vercel.app',
-  },
-  {
-    title: 'Ecommerce Backend API',
-    description: 'Ecommerce With Golang - MongoDB',
-    image: './ecommerce.png',
-    path: 'https://github.com/KasiditR/ecommerce-go-mongo',
-  },
+  }
 ];
